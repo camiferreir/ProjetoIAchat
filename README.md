@@ -47,10 +47,8 @@ Aplicar os conhecimentos de HTML, CSS e JavaScript na criação de uma Landing P
 
 ## Autor
 
-Aluno: ______________________
+Aluno: Camille F Brito
 
-Turma: ______________________
+Professor: Jeferson
 
-Professor: ___________________
-
-Data: ____/____/____
+Data: 11/06/2026
