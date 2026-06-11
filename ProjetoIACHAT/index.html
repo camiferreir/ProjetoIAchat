@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Royal Pet Care</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <nav>
+        <h1>Royal Pet Care</h1>
+
+        <ul>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#agendamento">Agendamento</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+<section class="hero">
+
+    <div class="hero-text">
+        <h2>Banho e Tosa Premium para seu Pet</h2>
+
+        <p>
+            Cuidado profissional, ambiente seguro e atendimento de alto padrão
+            para garantir o bem-estar do seu melhor amigo.
+        </p>
+
+        <a href="#agendamento" class="btn-neon">
+            Agendar Agora
+        </a>
+    </div>
+
+    <div class="hero-img">
+        <img src="https://images.unsplash.com/photo-1517849845537-4d257902454a?w=900"
+             alt="Cachorro Feliz">
+    </div>
+
+</section>
+
+<section id="servicos" class="servicos">
+
+    <h2>Nossos Serviços</h2>
+
+    <div class="cards">
+
+        <article class="card">
+            <h3>Banho Premium</h3>
+
+            <p>Higienização completa e hidratação.</p>
+
+            <span class="tempo">Tempo: 1h</span>
+
+            <strong>R$ 59,90</strong>
+        </article>
+
+        <article class="card destaque">
+
+            <span class="badge">
+                Mais Vendido
+            </span>
+
+            <h3>Banho e Tosa Higiênica</h3>
+
+            <p>Limpeza completa com acabamento profissional.</p>
+
+            <span class="tempo">Tempo: 1h30</span>
+
+            <strong>R$ 89,90</strong>
+
+        </article>
+
+        <article class="card">
+            <h3>Banho e Tosa Completa</h3>
+
+            <p>Transformação completa com muito cuidado.</p>
+
+            <span class="tempo">Tempo: 2h</span>
+
+            <strong>R$ 119,90</strong>
+        </article>
+
+    </div>
+
+</section>
+
+<section id="agendamento" class="agendamento">
+
+    <h2>Agende seu Horário</h2>
+
+    <form id="formulario">
+
+        <input
+            type="text"
+            id="tutor"
+            placeholder="Nome do Tutor"
+            required>
+
+        <input
+            type="text"
+            id="pet"
+            placeholder="Nome do Pet"
+            required>
+
+        <input
+            type="text"
+            id="telefone"
+            placeholder="(00) 00000-0000"
+            maxlength="15"
+            required>
+
+        <input
+            type="date"
+            id="data"
+            required>
+
+        <select id="servico" required>
+
+            <option value="">
+                Escolha um serviço
+            </option>
+
+            <option>
+                Banho Premium
+            </option>
+
+            <option>
+                Banho e Tosa Higiênica
+            </option>
+
+            <option>
+                Banho e Tosa Completa
+            </option>
+
+        </select>
+
+        <button type="submit" class="btn-neon">
+            Confirmar Agendamento
+        </button>
+
+    </form>
+
+    <div id="mensagem"></div>
+
+</section>
+
+</main>
+
+<footer>
+
+    <h3>Royal Pet Care</h3>
+
+    <p>📍 Taquara - RS</p>
+
+    <p>📞 (51) 99999-9999</p>
+
+    <p>Instagram: @royalpetcare</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
